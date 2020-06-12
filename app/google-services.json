@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "388227161585",
+    "firebase_url": "https://robotizm-bm1997.firebaseio.com",
+    "project_id": "robotizm-bm1997",
+    "storage_bucket": "robotizm-bm1997.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388227161585:android:8408703cc5f7c1215d7850",
+        "android_client_info": {
+          "package_name": "com.example.robotizm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "388227161585-cb0fq1110en5fqrnio73st66oe1sfl9e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.robotizm",
+            "certificate_hash": "341f33879bea3d6f776ccbe9d77481e82efb8d3d"
+          }
+        },
+        {
+          "client_id": "388227161585-aath7j6d5egau3i3k3ll8qn7udckivtp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCrRRvBmdD13oNoUI4QR-XPOhmJfm2qPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "388227161585-aath7j6d5egau3i3k3ll8qn7udckivtp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

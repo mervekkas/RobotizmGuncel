@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D745F36B"
+    tools:context=".dorduncu_makale">
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="195dp"
+        android:layout_marginRight="195dp"
+        android:layout_marginBottom="13dp"
+        android:text="Kodlama dilleri nelerdir?"
+        android:textColor="#F44336"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="360dp"
+        android:layout_height="229dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="377dp"
+        android:text="Amaçlarına göre değişmekle birlikte bilgisayar dünyasının dilleri zaman içinde değişiklikler de göstermektedir. Yok olmuş, unutulmuş, yetersiz kalmış diller olduğu gibi, kendini geliştiren geçmişin bir döneminden bugüne ayakta kalmış veya tamamen zamanın şartları doğrultusunda yeni türemiş diller de bulunmaktadır. En yaygın diller olarak; Java, Python, C++, C#, Javascript, PHP, Perl gibi diller ve yeni olarak da Swift, Ruby, Rust, Elixir, Scala, R dilleri sayılabilir."
+        android:textColor="#0F0D0D"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="303dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        android:layout_marginBottom="340dp"
+        android:text="Kodlama kolay öğrenilen bir şey mi?"
+        android:textColor="#F44336"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="355dp"
+        android:layout_height="207dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginBottom="131dp"
+        android:text="Bir yabancı dilin sıfırdan öğrenilmesi ile kıyaslanabilir ya da bir dil ailesinden dil veya diller öğrenmekle kıyaslanabilir bir süreçtir, fakat kodlama öğrenmek için biraz da matematik bakışına sahip olmak, o altyapıya ihtiyaç vardır. Kolay öğrenilir mi sorusu da farklılık gösterir kişiden kişiye, kimisi için bisiklete biner binmez pedal çevirmeyi başarır, kimisi içinde destekleyici tekerlerin varlığı ile pedal çevirmeyi, dengede kalmayı başarır."
+        android:textColor="#0F0E0E"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+</androidx.constraintlayout.widget.ConstraintLayout>

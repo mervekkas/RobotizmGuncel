@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.robotizm">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".odevler.YedinciOdev_Activity"></activity>
+        <activity android:name=".odevler.AltinciOdev_Activity" />
+        <activity android:name=".odevler.BesinciOdev_Activity" />
+        <activity android:name=".odevler.DorduncuOdev_Activity" />
+        <activity android:name=".odevler.UcuncuOdev_Activity" />
+        <activity android:name=".odevler.IkinciOdev_Activity" />
+        <activity android:name=".odevler.BirinciOdev_Activity" />
+        <activity android:name=".Odevler_Activity" />
+        <activity android:name=".besinciVideo" />
+        <activity android:name=".dorduncuVideo" />
+        <activity android:name=".ucuncuVideo" />
+        <activity android:name=".ikinciVideo" />
+        <activity android:name=".birinciVideo" />
+        <activity android:name=".videolarActivity" />
+        <activity android:name=".dorduncu_makale" />
+        <activity android:name=".ucuncu_makale" />
+        <activity android:name=".ikinci_makale" />
+        <activity android:name=".birinci_makale" />
+        <activity android:name=".makaleActivity" />
+        <activity android:name=".testler.YedinciTest_Activity" />
+        <activity android:name=".testler.AltinciTest_Activity" />
+        <activity android:name=".testler.BesinciTest_Activity" />
+        <activity android:name=".testler.DorduncuTest_Acitivity" />
+        <activity android:name=".testler.UcuncuTest_Activity" />
+        <activity android:name=".testler.ProfilActivity" />
+        <activity android:name=".testler.IkinciTest_Activity" />
+        <activity android:name=".testler.BirinciTest_Activity" />
+        <activity android:name=".MiniTestActivity" />
+        <activity android:name=".SoruIsaretiActivity" />
+        <activity android:name=".uyeOlButtonActivity" />
+        <activity android:name=".AnaSayfaActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D745F36B"
+    tools:context=".ucuncu_makale">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="8dp"
+        android:text=" Kodlama Öğrenmek Öğrencilere Ne Kazandırır?"
+        android:textColor="#F44336"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="378dp"
+        android:layout_height="234dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginRight="9dp"
+        android:layout_marginBottom="335dp"
+        android:text="Bilgisayar alanında çok önemli isimlerin hepsinin ortak özelliği küçük yaşta programlama öğrenmiş olmalarıdır. Teknolojideki gelişmeler sistematik ve alternatif düşünme becerisini geliştiren, olaylar arasındaki bağlantıyı görmeyi sağlayan programlamayı hem eğlenceli hem de öğretici olarak çocuklara öğretebilmek artık mümkün hale gelmiştir. Özet olarak programlama öğrenmek insana ; sistematik düşünme, problem çözebilme, olaylar arasındaki ilişkileri görebilme, yaratıcı düşünebilme gibi yetiler kazandırıyor."
+        android:textColor="#070607"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="370dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginBottom="12dp"
+        android:text="Kodlamanın yararları nelerdir?"
+        android:textColor="#F44336"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="358dp"
+        android:layout_height="260dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="18dp"
+        android:text="Kodlama; bir sistemden/makineden/bilgisayardan yapılması istenen şeylerin sistematik bir şekilde bu araçlara anlatılması yöntemidir. Bilgisayarlar için; bilgisayardan beklenilenler için talimatlar bütünüdür. Dijital dünyayı şekillendiren, yöneten kodlardır. Her internet sitesi, akıllı telefonların uygulamaları, bilgisayar yazılımları, oyunları, hesap makineleri, buzdolapları, mikro dalga fırınlara kadar her cihaz çalışabilmek için bu kodlara ihtiyaç duyar. Bu da, kod yazanları dijital çağın mimarları, inşacıları haline getirir. Gelecek; reel dünyanın, sanal dünyadan inşası ile şekillenecektir."
+        android:textColor="#161212"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+</androidx.constraintlayout.widget.ConstraintLayout>

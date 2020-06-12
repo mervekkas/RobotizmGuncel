@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D745F36B"
+    tools:context=".ikinci_makale">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="277dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginRight="142dp"
+        android:layout_marginBottom="602dp"
+        android:text="1- Dünyada nasıl uygulanıyor?"
+        android:textColor="#F44336"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="382dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="367dp"
+        android:text="İngiltere Eylül 2013’te yaptığı değişiklikle ‘kodlama’yı müfredata ekledi. İngiltere Eğitim Bakanlığı, bilgi ve iletişim teknolojileri dersinin müfredatını 5-6, 7-11 ve 11-14 yaş grubu için üç ayrı basamakta düzenledi. ABD’de de kodlama eğitimi ilk, orta ve liselerde veriliyor. Birçok ülke, çocuklara kodlama ve algoritmik düşünme becerisini kazanabilmeleri için ünlü simaların katıldığı ulusal kodlama şenlikleri, robot tasarım/ kodlama yarışmaları gibi çeşitli yöntemler geliştiriyor."
+        android:textColor="#131212"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="403dp"
+        android:layout_height="24dp"
+        android:layout_marginBottom="3dp"
+        android:text=" 2- Yurtdışı örnekleri inceleniyor mu?"
+        android:textColor="#F44336"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView18"
+        app:layout_constraintEnd_toEndOf="@+id/textView18"
+        app:layout_constraintStart_toStartOf="@+id/textView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="376dp"
+        android:layout_height="341dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:text="Yurtdışındaki tecrübelerden yararlanıp Türkiye’deki eğitime özgü bir sistem geliştirmek istediklerini belirten Ak, şunları söyledi: “Yurtdışı örneklerinin hepsini inceledik. Bize gelen uluslararası çalışmaları yapan kuruluşlar var. Hem onlar bilgi verdi, hem biz yerinde çalışmaları inceledik. Çalışmalar sonucunda neler elde edilmiş? Algoritmik ve bilişimsel düşünceyi kodlamayla ilgili yapılan çalışmalar ne düzeyde destekliyor? Öğrencilerde nasıl bir gelişme olmuş? Bunlar da bizim için önemli. Kodlamayı müfredata koyduk, sonunda ne olacak bilmecesiyle hareket etmedik, önceki tecrübelerden de yararlanalım, kendimize özgü bir sistem geliştirilem istedik. İçerikle ilgili çalışıyoruz. Elimizde çok alternatif metod var. Sadece kuru bir ders müfredatıyla bunu vermek istemiyoruz. Öylesinin çok da etkili olacağını düşünmüyoruz.”"
+        android:textColor="#1A1818"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+</androidx.constraintlayout.widget.ConstraintLayout>
